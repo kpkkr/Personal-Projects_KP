@@ -141,7 +141,7 @@ def redrawwindow(win, initial, time, strikes):
     win.blit(text, (325, 545))
     # draw strikes
     text = fnt.render("X" * strikes, 1, (255,0,0))
-    win.blit(text, (20, 560))
+    win.blit(text, (20, 545))
     # draw grid and board
     initial.draw(win)
 
